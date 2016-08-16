@@ -3,5 +3,5 @@ a template for drawLayout
 
 ## android template 
 
-# Fragment + HorizontalScrollView 
-# bottomTab
+### Fragment + HorizontalScrollView 
+### BottomTab
