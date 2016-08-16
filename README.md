@@ -1,7 +1,8 @@
-# android_drawLayout
-a template for drawLayout
+# Android DrawLayout 
 
-## android template 
+##  this is a android template for developers
 
 ### Fragment + HorizontalScrollView 
 ### BottomTab
+### SliedeMenu
+### Customized TitleBar
