@@ -1,8 +1,8 @@
 # Android DrawLayout 
 
-##  this is a android template for developers
+###   An android template for developers
 
-### Fragment + HorizontalScrollView 
-### BottomTab
-### SliedeMenu
-### Customized TitleBar
+1. Fragment + HorizontalScrollView 
+2. BottomTab
+3. SliedeMenu
+4. Customized TitleBar
