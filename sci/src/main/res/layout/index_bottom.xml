@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="55dp"
+    android:background="@drawable/index_bottom_background">
+
+    <LinearLayout
+        android:id="@+id/bottom_tab1"
+        android:layout_width="0dp"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/bottom_tab1_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fa_lemon_o"
+            android:textSize="30dp"/>
+        <TextView
+            android:id="@+id/bottom_tab1_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="首页"
+            android:textSize="12dp"
+            android:textColor="@color/primary_text"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bottom_tab2"
+        android:layout_width="0dp"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/bottom_tab2_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fa_compass"
+            android:textSize="30dp"/>
+        <TextView
+            android:id="@+id/bottom_tab2_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="发现"
+            android:textSize="12dp"
+            android:textColor="@color/primary_text"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/bottom_tab3"
+        android:layout_width="0dp"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/bottom_tab3_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fa_lightbulb_o"
+            android:textSize="30dp"/>
+        <TextView
+            android:id="@+id/bottom_tab3_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="提问"
+            android:textSize="12dp"
+            android:textColor="@color/primary_text"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/bottom_tab4"
+        android:layout_width="0dp"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/bottom_tab4_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fa_map_marker"
+            android:textSize="30dp"/>
+        <TextView
+            android:id="@+id/bottom_tab4_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="签到"
+            android:textSize="12dp"
+            android:textColor="@color/primary_text"/>
+
+    </LinearLayout>
+</LinearLayout>
